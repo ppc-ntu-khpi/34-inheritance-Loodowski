@@ -1,13 +1,16 @@
 package domain;
 
-public class Animal {
+public class Animals {
 
     protected String name;
 
+    protected int age;
+
     protected int weight;
 
-    public Animal() {
-        name="generic animal";
+    public Animals() {
+        name="gerenic animal";
+        age=14;
         weight=25;
     }
 
@@ -15,14 +18,11 @@ public class Animal {
         System.out.println("Animal eating...");
     }
 
-    public void speak() {
-        System.out.println("Animal speaking...");
+    public void sleep() {
+        System.out.println("Animal sleeping...");
     }
 
-    @Override
     public String toString() {
-        return "My animal:" + "\nName:\t" + name + "\nWeight:\t" + weight+" kg";
+        return "Animal:" + "\nName:\t" + name + "\nAge:\t" + age + "\nWeight:\t" + weight;
     }
-
- 
 }
