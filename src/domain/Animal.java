@@ -1,6 +1,10 @@
 package domain;
 
-public class Animals {
+
+ /**
+ * The class Animal
+ */ 
+public class Animal {
 
     protected String name;
 
@@ -8,21 +12,50 @@ public class Animals {
 
     protected int weight;
 
-    public Animals() {
+
+/** 
+ *
+ * It is a constructor. 
+ *
+ */
+    public Animal() { 
+
         name="gerenic animal";
         age=14;
         weight=25;
     }
 
-    public void eat() {
+
+/** 
+ *
+ * Eat
+ *
+ */
+    public void eat() { 
+
         System.out.println("Animal eating...");
     }
 
-    public void sleep() {
+
+/** 
+ *
+ * Sleep
+ *
+ */
+    public void sleep() { 
+
         System.out.println("Animal sleeping...");
     }
 
-    public String toString() {
+
+/** 
+ *
+ * To string
+ *
+ * @return String
+ */
+    public String toString() { 
+
         return "Animal:" + "\nName:\t" + name + "\nAge:\t" + age + "\nWeight:\t" + weight;
     }
 }

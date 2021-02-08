@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_dir_1ebadbdda2fcad21258e652a4aa28c5d" xml:lang="en-US">
+<title>B:/OOP/34-inheritance-Loodowski/src/domain Directory Reference</title>
+<indexterm><primary>B:/OOP/34-inheritance-Loodowski/src/domain Directory Reference</primary></indexterm>
+<simplesect>
+    <title>Files    </title>
+        <itemizedlist>
+            <listitem><para>file <link linkend="__animal_8java">Animal.java</link></para>
+</listitem>
+            <listitem><para>file <link linkend="__bear_8java">Bear.java</link></para>
+</listitem>
+            <listitem><para>file <link linkend="__predator_8java">Predator.java</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>
